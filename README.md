@@ -1,6 +1,8 @@
-# NLW Agents
+# NLW Agents Server
 
-Projeto desenvolvido durante o evento da **Rocketseat**
+Projeto desenvolvido durante o evento **NLW Agents** da **Rocketseat** 
+
+Confira também a [Página Web](https://github.com/LucasEmmanoel06/nlw-agents-web) do NLW Agents
 
 ## 🚀 Tecnologias
 
@@ -47,8 +49,8 @@ src/
 
 1. Clone o repositório
   ```bash
-  git clone https://github.com/LucasEmmanoel06/nlw-advanced.git
-  cd nlw-advanced
+  git clone https://github.com/LucasEmmanoel06/nlw-agents-server.git
+  cd nlw-agents-server
   ```
 
 2. Instale as dependências:
