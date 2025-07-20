@@ -8,6 +8,20 @@
       "when": 1752429003041,
       "tag": "0000_chubby_lightspeed",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752525313891,
+      "tag": "0001_young_zaladane",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752538254340,
+      "tag": "0002_burly_stryfe",
+      "breakpoints": true
     }
   ]
 }
