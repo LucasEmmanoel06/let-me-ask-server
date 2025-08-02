@@ -1,10 +1,14 @@
-import { reset, seed } from 'drizzle-seed';
-import { db, sql } from './connection.ts';
-import { schema } from './schema/index.ts';
+import { reset, seed } from 'drizzle-seed'
+import { db, sql } from './connection.ts'
+import { schema } from './schema/index.ts'
 
-await reset(db, schema);
+// Remove audioChunks from schema for seeding as vector columns are not supported
+// biome-ignore lint/correctness/noUnusedVariables: audioChunks is intentionally removed from seeding
+const { audioChunks, ...seedSchema } = schema
 
-await seed(db, schema).refine((f) => {
+await reset(db, seedSchema)
+
+await seed(db, seedSchema).refine((f) => {
   return {
     rooms: {
       count: 5,
@@ -13,13 +17,13 @@ await seed(db, schema).refine((f) => {
         description: f.loremIpsum(),
       },
     },
-    questions:{
+    questions: {
       count: 20,
-    }
-  };
-});
+    },
+  }
+})
 
-await sql.end();
+await sql.end()
 
 // biome-ignore lint/suspicious/noConsole: only used in dev
-console.log('Database seeded');
+console.log('Database seeded')

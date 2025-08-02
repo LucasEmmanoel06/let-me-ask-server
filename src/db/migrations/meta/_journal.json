@@ -22,6 +22,13 @@
       "when": 1752538254340,
       "tag": "0002_burly_stryfe",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1754014784351,
+      "tag": "0003_mute_electro",
+      "breakpoints": true
     }
   ]
 }
