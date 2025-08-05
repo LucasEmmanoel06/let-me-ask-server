@@ -1,8 +1,8 @@
-# NLW Agents Server
+# Let me Ask Server
 
 Projeto desenvolvido durante o evento **NLW Agents** da **Rocketseat** 
 
-Confira também a [Página Web](https://github.com/LucasEmmanoel06/nlw-agents-web) do NLW Agents
+Confira também a [Página Web](https://github.com/LucasEmmanoel06/nlw-agents-web) do Let me Ask
 
 ## 🚀 Tecnologias
 
@@ -50,7 +50,7 @@ src/
 1. Clone o repositório
   ```bash
   git clone https://github.com/LucasEmmanoel06/nlw-agents-server.git
-  cd nlw-agents-server
+  cd let-me-ask-server
   ```
 
 2. Instale as dependências:
@@ -61,7 +61,7 @@ src/
 3. Configure as variáveis de ambiente criando um arquivo `.env`:
    ```
    PORT=3333
-   DATABASE_URL=postgresql://docker:docker@localhost:5432/agents
+   DATABASE_URL=postgresql://docker:docker@localhost:5432/letmeask
    ```
 
 4. Inicie o banco de dados:

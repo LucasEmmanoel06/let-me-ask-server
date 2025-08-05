@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "let-me-ask-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Let me Ask - A question and answer platform powered by AI",
   "main": "index.js",
   "scripts": {
     "start": "node --env-file .env --experimental-strip-types --no-warnings src/server.ts",

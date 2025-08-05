@@ -1,10 +1,10 @@
 services:
-  nlw-agents-pg:
+  let-me-ask-pg:
     image: pgvector/pgvector:pg17
     environment:
       POSTGRES_USER: docker
       POSTGRES_PASSWORD: docker
-      POSTGRES_DB: agents
+      POSTGRES_DB: letmeask
     ports:
       - "5432:5432"
     volumes:
